@@ -17,7 +17,7 @@ int main(){
 
 
     if(number/10000 == number%10 ){
-        if((number/1000)%10 == (number%100)/10){
+        if((number%100)/10 == (number/1000)%10 ){
             cout << "This number is palindrome\n" << endl ;
         }
 
